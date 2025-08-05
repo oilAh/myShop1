@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2, h4 {
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        table th, table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+
+        @media (max-width: 768px) {
+            table, th, td {
+                font-size: 14px;
+            }
+
+            button {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>My SHOP</h2>
+
+    <h4>ข้อมูลลูกค้า:</h4>
+    <button type="button" onclick="loadXMLDoc()">ข้อมูลลูกค้า</button>
+    <table>
+        <tr>
+            <th>firstName</th>
+            <th>lastName</th>
+            <th>nickname</th>
+            <th>age</th>
+            <th>id</th>
+        </tr>
+        <tr>
+            <td id="demo1"></td>
+            <td id="demo2"></td>
+            <td id="demo3"></td>
+            <td id="demo4"></td>
+            <td id="demo5"></td>
+        </tr>
+    </table>
+
+    <h4>ข้อมูลสินค้า:</h4>
+    <button type="button" onclick="loadXMLDoc1()">ข้อมูลสินค้า</button>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>product</th>
+            <th>description</th>
+            <th>price</th>
+            <th>quantity</th>
+        </tr>
+        <tr>
+            <td id="po1"></td>
+            <td id="po2"></td>
+            <td id="po3"></td>
+            <td id="po4"></td>
+            <td id="po5"></td>
+        </tr>
+    </table>
+
+    <h4>ออเดอร์สินค้า:</h4>
+    <button type="button" onclick="loadXMLDoc2()">ออเดอร์</button>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>product</th>
+            <th>quantity</th>
+            <th>price</th>
+            <th>total</th>
+        </tr>
+        <tr>
+            <td id="em1"></td>
+            <td id="em2"></td>
+            <td id="em3"></td>
+            <td id="em4"></td>
+            <td id="em5"></td>
+        </tr>
+    </table>
+
+    <h4>ข้อมูลการขนส่ง:</h4>
+    <button type="button" onclick="loadXMLDoc3()">ข้อมูลการขนส่ง</button>
+    <table>
+        <tr>
+            <th>transportID</th>
+            <th>company</th>
+            <th>type</th>
+            <th>date</th>
+            <th>status</th>
+        </tr>
+        <tr>
+            <td id="buy1"></td>
+            <td id="buy2"></td>
+            <td id="buy3"></td>
+            <td id="buy4"></td>
+            <td id="buy5"></td>
+        </tr>
+    </table>
+
+    <script src="shop.js"></script>
+</body>
+</html>

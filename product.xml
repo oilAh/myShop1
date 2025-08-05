@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>001</id>
+        <product>เมาส์ไร้สาย</product>
+        <description>เมาส์ไร้สายสีดำ ความละเอียด 1600 DPI</description>
+        <price>350</price>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <id>002</id>
+        <product>คีย์บอร์ด</product>
+        <description>คีย์บอร์ดมีสาย พิมพ์นิ่ม สะดวก</description>
+        <price>450</price>
+        <quantity>15</quantity>
+    </product>
+    <product>
+        <id>003</id>
+        <product>แฟลชไดรฟ์</product>
+        <description>ความจุ 32GB</description>
+        <price>290</price>
+        <quantity>50</quantity>
+    </product>
+    <product>
+        <id>004</id>
+        <product>หูฟังบลูทูธ</product>
+        <description>หูฟังบลูทูธ True Wireless</description>
+        <price>990</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <id>005</id>
+        <product>สายชาร์จ Type-C</product>
+        <description>สายชาร์จเร็ว รองรับ PD</description>
+        <price>120</price>
+        <quantity>100</quantity>
+    </product>
+</products>

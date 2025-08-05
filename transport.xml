@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+    <transport>
+        <transportID>001</transportID>
+        <company>Kerry Express</company>
+        <type>ด่วนพิเศษ</type>
+        <date>2025-06-21</date>
+        <status>จัดส่งแล้ว</status>
+    </transport>
+    <transport>
+        <transportID>002</transportID>
+        <company>Flash Express</company>
+        <type>ปกติ</type>
+        <date>2025-06-22</date>
+        <status>กำลังขนส่ง</status>
+    </transport>
+    <transport>
+        <transportID>005</transportID>
+        <company>Kerry Express</company>
+        <type>ด่วนพิเศษ</type>
+        <date>2025-06-20</date>
+        <status>จัดส่งแล้ว</status>
+    </transport>
+    <transport>
+        <transportID>004</transportID>
+        <company>SCG Express</company>
+        <type>ด่วนพิเศษ</type>
+        <date>2025-06-22</date>
+        <status>จัดส่งแล้ว</status>
+    </transport>
+    <transport>
+        <transportID>003</transportID>
+        <company>Flash Express</company>
+        <type>ปกติ</type>
+        <date>2025-06-23</date>
+        <status>กำลังขนส่ง</status>
+    </transport>
+</transports>

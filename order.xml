@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <customer>
+        <name>ปัณณทัต</name>
+        <product>เมาส์ไร้สาย</product>
+        <quantity>2</quantity>
+        <price>350</price>
+        <total>700</total>
+    </customer>
+    <customer>
+        <name>รัฐภาค</name>
+        <product>คีย์บอร์ด</product>
+        <quantity>1</quantity>
+        <price>450</price>
+        <total>450</total>
+    </customer>
+    <customer>
+        <name>สิทธิ์ชัย</name>
+        <product>สายชาร์จ Type-C</product>
+        <quantity>3</quantity>
+        <price>120</price>
+        <total>360</total>
+    </customer>
+    <customer>
+        <name>วริศ</name>
+        <product>หูฟังบลูทูธ</product>
+        <quantity>2</quantity>
+        <price>990</price>
+        <total>1980</total>
+    </customer>
+    <customer>
+        <name>ศักดิ์ผล</name>
+        <product>แฟลชไดรฟ์</product>
+        <quantity>5</quantity>
+        <price>290</price>
+        <total>1450</total>
+    </customer>
+</customers>

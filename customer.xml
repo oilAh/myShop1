@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <customer>
+        <firstName>ปัณณทัต</firstName>
+        <lastName>หมอนไหม</lastName>
+        <nickname>เต้</nickname>
+        <age>32</age>
+        <id>04</id>
+    </customer>
+    <customer>
+        <firstName>รัฐภาค</firstName>
+        <lastName>สำแดงภัย</lastName>
+        <nickname>ออย</nickname>
+        <age>28</age>
+        <id>06</id>
+    </customer>
+    <customer>
+        <firstName>สิทธิ์ชัย</firstName>
+        <lastName>สินทะวงค์</lastName>
+        <nickname>ฟีล์ม</nickname>
+        <age>45</age>
+        <id>010</id>
+    </customer>
+    <customer>
+        <firstName>วริศ</firstName>
+        <lastName>บุญเรือน</lastName>
+        <nickname>คิง</nickname>
+        <age>36</age>
+        <id>08</id>
+    </customer>
+    <customer>
+        <firstName>ศักดิ์พล</firstName>
+        <lastName>ศิริพงษ์</lastName>
+        <nickname>พล</nickname>
+        <age>25</age>
+        <id>09</id>
+    </customer>
+</customers>
